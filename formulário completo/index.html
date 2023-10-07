@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="/pagina2" method="post">
@@ -23,8 +27,8 @@
         </div>
         <br>
         <div>
-        <label for="hora-desejada">Hora desejada</label>
-        <input type="time" name="hora-desejada" id="hora-desejada" required>
+            <label for="hora-desejada">Hora desejada</label>
+            <input type="time" name="hora-desejada" id="hora-desejada" required>
         </div>
         <br>
         <div>
@@ -34,7 +38,7 @@
         <br>
         <div>
             <label for="site">Seu site</label>
-            <input type="url" id="site" name="site" required>
+            <input type="url" id="site" name="site" required><br><br>
             <label for="senha">Senha</label>
             <input type="password" id="senha" name="senha" required>
         </div>
@@ -63,12 +67,12 @@
             </select>
         </div>
         <br>
-        <div>
+        <div class="radio">
             <p>Grau de Estudo</p>
             <input type="radio" id="medio" name="ensino" value="Ensino Médio">
-            <label for="medio">Ensino Médio</label>
+            <label for="medio">Ensino Médio</label><br><br>
             <input type="radio" name="ensino" id="faculdade" value="Ensino Superior">
-            <label for="faculdade">Ensino Superior</label>
+            <label for="faculdade">Ensino Superior</label><br><br>
             <input type="radio" name="ensino" id="mestrado" value="Mestrado">
             <label for="mestrado">Mestrado</label>
         </div>
